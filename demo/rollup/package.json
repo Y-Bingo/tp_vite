@@ -1,0 +1,23 @@
+{
+	"name": "rollup",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "rollup -c ./rollup.config.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"@rollup/plugin-alias": "^4.0.2",
+		"@rollup/plugin-commonjs": "^23.0.2",
+		"@rollup/plugin-json": "^5.0.1",
+		"@rollup/plugin-node-resolve": "^15.0.1",
+		"@rollup/plugin-terser": "^0.1.0",
+		"rollup": "^3.2.5"
+	},
+	"devDependencies": {
+		"react": "^18.2.0"
+	}
+}
