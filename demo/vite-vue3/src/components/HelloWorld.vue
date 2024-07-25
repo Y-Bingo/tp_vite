@@ -1,11 +1,19 @@
 <script setup>
-import { ref } from 'vue'
+import { ref } from "vue";
 
 defineProps({
-  msg: String
-})
+  msg: String,
+});
 
-const count = ref(0)
+const count = ref(0);
+const strRef = ref("a");
+const obj = {
+  a: 1,
+  b: "2",
+};
+type objType = typeof obj;
+const objRef = ref(obj);
+console.log(objRef.value.a);
 </script>
 
 <template>

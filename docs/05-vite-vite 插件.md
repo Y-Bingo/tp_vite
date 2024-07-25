@@ -51,3 +51,8 @@ moduleParsed 不会被调用
 -   pre
 -   normal
 -   post
+
+## HMR API 
+
+
+## 插件
